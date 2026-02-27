@@ -1,3 +1,3 @@
 # DSA
 
-#This repository is about dsa series questions
+# This repository is about dsa series questions
