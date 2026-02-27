@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  int n = 4;
+  int n = 3;
   // Above Code For number Pattern
     int next = 1;
   for (var i = 0; i < n; i++) {
