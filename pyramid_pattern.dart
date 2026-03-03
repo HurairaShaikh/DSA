@@ -14,13 +14,14 @@ void character_pyramids_pattern(int n) {
     }
     for (int j = 1; j <= i + 1; j++) {
       stdout.write(String.fromCharCode(char));
-    char += 1;
+      char += 1;
     }
+    char -= 2;
     for (int j = i; j > 0; j--) {
-      stdout.write(String.fromCharCode(char-2));
-    char -= 1;
+      stdout.write(String.fromCharCode(char));
+      char -= 1;
     }
-  
+
     stdout.write("\n");
   }
 }
