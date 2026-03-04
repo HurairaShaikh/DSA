@@ -2,8 +2,8 @@ import 'dart:io';
 
 void main() {
   int n = 4;
-// number_pyramid_pattern(n);
- // character_pyramids_pattern(n);
+number_pyramid_pattern(n);
+ character_pyramids_pattern(n);
 }
 
 void character_pyramids_pattern(int n) {
