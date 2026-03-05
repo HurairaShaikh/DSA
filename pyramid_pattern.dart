@@ -34,6 +34,10 @@ void number_pyramid_pattern(int n) {
     for (int j = 1; j <= i + 1; j++) {
       stdout.write(j);
     }
-    
+    for (int j = i; j > 0; j--) {
+      stdout.write(j);
+    }
+
+    stdout.write("\n");
   }
 }
